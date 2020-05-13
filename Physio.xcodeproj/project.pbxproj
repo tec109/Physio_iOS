@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3A34DC246BE15E00A55617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34DB246BE15E00A55617 /* AppDelegate.swift */; };
+		2F3A34DE246BE15E00A55617 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34DD246BE15E00A55617 /* SceneDelegate.swift */; };
+		2F3A34E0246BE15E00A55617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34DF246BE15E00A55617 /* ContentView.swift */; };
+		2F3A34E2246BE15F00A55617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E1246BE15F00A55617 /* Assets.xcassets */; };
+		2F3A34E5246BE15F00A55617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E4246BE15F00A55617 /* Preview Assets.xcassets */; };
+		2F3A34E8246BE15F00A55617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */; };
+		2F3A34F3246BE15F00A55617 /* PhysioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34F2246BE15F00A55617 /* PhysioTests.swift */; };
+		2F3A34FE246BE15F00A55617 /* PhysioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34FD246BE15F00A55617 /* PhysioUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F3A34EF246BE15F00A55617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3A34D0246BE15E00A55617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3A34D7246BE15E00A55617;
+			remoteInfo = Physio;
+		};
+		2F3A34FA246BE15F00A55617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F3A34D0246BE15E00A55617 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F3A34D7246BE15E00A55617;
+			remoteInfo = Physio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F3A34D8246BE15E00A55617 /* Physio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Physio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A34DB246BE15E00A55617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F3A34DD246BE15E00A55617 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2F3A34DF246BE15E00A55617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F3A34E1246BE15F00A55617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F3A34E4246BE15F00A55617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F3A34E7246BE15F00A55617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F3A34E9246BE15F00A55617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3A34EE246BE15F00A55617 /* PhysioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A34F2246BE15F00A55617 /* PhysioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioTests.swift; sourceTree = "<group>"; };
+		2F3A34F4246BE15F00A55617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3A34F9246BE15F00A55617 /* PhysioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A34FD246BE15F00A55617 /* PhysioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioUITests.swift; sourceTree = "<group>"; };
+		2F3A34FF246BE15F00A55617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3A34D5246BE15E00A55617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34EB246BE15F00A55617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34F6246BE15F00A55617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F3A34CF246BE15E00A55617 = {
+			isa = PBXGroup;
+			children = (
+				2F3A34DA246BE15E00A55617 /* Physio */,
+				2F3A34F1246BE15F00A55617 /* PhysioTests */,
+				2F3A34FC246BE15F00A55617 /* PhysioUITests */,
+				2F3A34D9246BE15E00A55617 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F3A34D9246BE15E00A55617 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A34D8246BE15E00A55617 /* Physio.app */,
+				2F3A34EE246BE15F00A55617 /* PhysioTests.xctest */,
+				2F3A34F9246BE15F00A55617 /* PhysioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F3A34DA246BE15E00A55617 /* Physio */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A34DB246BE15E00A55617 /* AppDelegate.swift */,
+				2F3A34DD246BE15E00A55617 /* SceneDelegate.swift */,
+				2F3A34DF246BE15E00A55617 /* ContentView.swift */,
+				2F3A34E1246BE15F00A55617 /* Assets.xcassets */,
+				2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */,
+				2F3A34E9246BE15F00A55617 /* Info.plist */,
+				2F3A34E3246BE15F00A55617 /* Preview Content */,
+			);
+			path = Physio;
+			sourceTree = "<group>";
+		};
+		2F3A34E3246BE15F00A55617 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A34E4246BE15F00A55617 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F3A34F1246BE15F00A55617 /* PhysioTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A34F2246BE15F00A55617 /* PhysioTests.swift */,
+				2F3A34F4246BE15F00A55617 /* Info.plist */,
+			);
+			path = PhysioTests;
+			sourceTree = "<group>";
+		};
+		2F3A34FC246BE15F00A55617 /* PhysioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A34FD246BE15F00A55617 /* PhysioUITests.swift */,
+				2F3A34FF246BE15F00A55617 /* Info.plist */,
+			);
+			path = PhysioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F3A34D7246BE15E00A55617 /* Physio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3A3502246BE15F00A55617 /* Build configuration list for PBXNativeTarget "Physio" */;
+			buildPhases = (
+				2F3A34D4246BE15E00A55617 /* Sources */,
+				2F3A34D5246BE15E00A55617 /* Frameworks */,
+				2F3A34D6246BE15E00A55617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Physio;
+			productName = Physio;
+			productReference = 2F3A34D8246BE15E00A55617 /* Physio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F3A34ED246BE15F00A55617 /* PhysioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3A3505246BE15F00A55617 /* Build configuration list for PBXNativeTarget "PhysioTests" */;
+			buildPhases = (
+				2F3A34EA246BE15F00A55617 /* Sources */,
+				2F3A34EB246BE15F00A55617 /* Frameworks */,
+				2F3A34EC246BE15F00A55617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3A34F0246BE15F00A55617 /* PBXTargetDependency */,
+			);
+			name = PhysioTests;
+			productName = PhysioTests;
+			productReference = 2F3A34EE246BE15F00A55617 /* PhysioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F3A34F8246BE15F00A55617 /* PhysioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F3A3508246BE15F00A55617 /* Build configuration list for PBXNativeTarget "PhysioUITests" */;
+			buildPhases = (
+				2F3A34F5246BE15F00A55617 /* Sources */,
+				2F3A34F6246BE15F00A55617 /* Frameworks */,
+				2F3A34F7246BE15F00A55617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F3A34FB246BE15F00A55617 /* PBXTargetDependency */,
+			);
+			name = PhysioUITests;
+			productName = PhysioUITests;
+			productReference = 2F3A34F9246BE15F00A55617 /* PhysioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F3A34D0246BE15E00A55617 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Tyler Veeman";
+				TargetAttributes = {
+					2F3A34D7246BE15E00A55617 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					2F3A34ED246BE15F00A55617 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2F3A34D7246BE15E00A55617;
+					};
+					2F3A34F8246BE15F00A55617 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 2F3A34D7246BE15E00A55617;
+					};
+				};
+			};
+			buildConfigurationList = 2F3A34D3246BE15E00A55617 /* Build configuration list for PBXProject "Physio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F3A34CF246BE15E00A55617;
+			productRefGroup = 2F3A34D9246BE15E00A55617 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F3A34D7246BE15E00A55617 /* Physio */,
+				2F3A34ED246BE15F00A55617 /* PhysioTests */,
+				2F3A34F8246BE15F00A55617 /* PhysioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F3A34D6246BE15E00A55617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A34E8246BE15F00A55617 /* LaunchScreen.storyboard in Resources */,
+				2F3A34E5246BE15F00A55617 /* Preview Assets.xcassets in Resources */,
+				2F3A34E2246BE15F00A55617 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34EC246BE15F00A55617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34F7246BE15F00A55617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F3A34D4246BE15E00A55617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A34DC246BE15E00A55617 /* AppDelegate.swift in Sources */,
+				2F3A34DE246BE15E00A55617 /* SceneDelegate.swift in Sources */,
+				2F3A34E0246BE15E00A55617 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34EA246BE15F00A55617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A34F3246BE15F00A55617 /* PhysioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F3A34F5246BE15F00A55617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3A34FE246BE15F00A55617 /* PhysioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F3A34F0246BE15F00A55617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3A34D7246BE15E00A55617 /* Physio */;
+			targetProxy = 2F3A34EF246BE15F00A55617 /* PBXContainerItemProxy */;
+		};
+		2F3A34FB246BE15F00A55617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F3A34D7246BE15E00A55617 /* Physio */;
+			targetProxy = 2F3A34FA246BE15F00A55617 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F3A34E7246BE15F00A55617 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F3A3500246BE15F00A55617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F3A3501246BE15F00A55617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F3A3503246BE15F00A55617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Physio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Physio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.Physio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F3A3504246BE15F00A55617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Physio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Physio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.Physio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F3A3506246BE15F00A55617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.PhysioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physio.app/Physio";
+			};
+			name = Debug;
+		};
+		2F3A3507246BE15F00A55617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.PhysioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Physio.app/Physio";
+			};
+			name = Release;
+		};
+		2F3A3509246BE15F00A55617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.PhysioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Physio;
+			};
+			name = Debug;
+		};
+		2F3A350A246BE15F00A55617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PhysioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veeman.PhysioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Physio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F3A34D3246BE15E00A55617 /* Build configuration list for PBXProject "Physio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A3500246BE15F00A55617 /* Debug */,
+				2F3A3501246BE15F00A55617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3A3502246BE15F00A55617 /* Build configuration list for PBXNativeTarget "Physio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A3503246BE15F00A55617 /* Debug */,
+				2F3A3504246BE15F00A55617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3A3505246BE15F00A55617 /* Build configuration list for PBXNativeTarget "PhysioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A3506246BE15F00A55617 /* Debug */,
+				2F3A3507246BE15F00A55617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F3A3508246BE15F00A55617 /* Build configuration list for PBXNativeTarget "PhysioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F3A3509246BE15F00A55617 /* Debug */,
+				2F3A350A246BE15F00A55617 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F3A34D0246BE15E00A55617 /* Project object */;
+}
