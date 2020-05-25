@@ -12,9 +12,17 @@
 		2F3A34E0246BE15E00A55617 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34DF246BE15E00A55617 /* ContentView.swift */; };
 		2F3A34E2246BE15F00A55617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E1246BE15F00A55617 /* Assets.xcassets */; };
 		2F3A34E5246BE15F00A55617 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E4246BE15F00A55617 /* Preview Assets.xcassets */; };
-		2F3A34E8246BE15F00A55617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */; };
 		2F3A34F3246BE15F00A55617 /* PhysioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34F2246BE15F00A55617 /* PhysioTests.swift */; };
 		2F3A34FE246BE15F00A55617 /* PhysioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A34FD246BE15F00A55617 /* PhysioUITests.swift */; };
+		2F3A350C246CEFAC00A55617 /* VariablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350B246CEFAC00A55617 /* VariablesView.swift */; };
+		2F3A350E246CF31200A55617 /* VariableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350D246CF31200A55617 /* VariableRow.swift */; };
+		2F3A3510246CF47D00A55617 /* AddVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350F246CF47D00A55617 /* AddVariable.swift */; };
+		2F975084246E717600500017 /* VariableData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F975083246E717600500017 /* VariableData.json */; };
+		2FC45151247230900053AD88 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45150247230900053AD88 /* Variable.swift */; };
+		2FC45153247236770053AD88 /* Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45152247236770053AD88 /* Equation.swift */; };
+		2FC45155247237E10053AD88 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45154247237E10053AD88 /* DataPoint.swift */; };
+		2FCE8200247A32AE00E0AC43 /* VariableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE81FF247A32AE00E0AC43 /* VariableData.swift */; };
+		2FCE8202247A386100E0AC43 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE8201247A386100E0AC43 /* Unit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +49,6 @@
 		2F3A34DF246BE15E00A55617 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F3A34E1246BE15F00A55617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F3A34E4246BE15F00A55617 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2F3A34E7246BE15F00A55617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F3A34E9246BE15F00A55617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F3A34EE246BE15F00A55617 /* PhysioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3A34F2246BE15F00A55617 /* PhysioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioTests.swift; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		2F3A34F9246BE15F00A55617 /* PhysioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhysioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3A34FD246BE15F00A55617 /* PhysioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysioUITests.swift; sourceTree = "<group>"; };
 		2F3A34FF246BE15F00A55617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F3A350B246CEFAC00A55617 /* VariablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesView.swift; sourceTree = "<group>"; };
+		2F3A350D246CF31200A55617 /* VariableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableRow.swift; sourceTree = "<group>"; };
+		2F3A350F246CF47D00A55617 /* AddVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVariable.swift; sourceTree = "<group>"; };
+		2F975083246E717600500017 /* VariableData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VariableData.json; sourceTree = "<group>"; };
+		2FC45150247230900053AD88 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
+		2FC45152247236770053AD88 /* Equation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equation.swift; sourceTree = "<group>"; };
+		2FC45154247237E10053AD88 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
+		2FCE81FF247A32AE00E0AC43 /* VariableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableData.swift; sourceTree = "<group>"; };
+		2FCE8201247A386100E0AC43 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +119,17 @@
 				2F3A34DD246BE15E00A55617 /* SceneDelegate.swift */,
 				2F3A34DF246BE15E00A55617 /* ContentView.swift */,
 				2F3A34E1246BE15F00A55617 /* Assets.xcassets */,
-				2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */,
 				2F3A34E9246BE15F00A55617 /* Info.plist */,
 				2F3A34E3246BE15F00A55617 /* Preview Content */,
+				2F3A350B246CEFAC00A55617 /* VariablesView.swift */,
+				2F3A350D246CF31200A55617 /* VariableRow.swift */,
+				2F3A350F246CF47D00A55617 /* AddVariable.swift */,
+				2F975083246E717600500017 /* VariableData.json */,
+				2FC45150247230900053AD88 /* Variable.swift */,
+				2FC45152247236770053AD88 /* Equation.swift */,
+				2FC45154247237E10053AD88 /* DataPoint.swift */,
+				2FCE81FF247A32AE00E0AC43 /* VariableData.swift */,
+				2FCE8201247A386100E0AC43 /* Unit.swift */,
 			);
 			path = Physio;
 			sourceTree = "<group>";
@@ -240,7 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F3A34E8246BE15F00A55617 /* LaunchScreen.storyboard in Resources */,
+				2F975084246E717600500017 /* VariableData.json in Resources */,
 				2F3A34E5246BE15F00A55617 /* Preview Assets.xcassets in Resources */,
 				2F3A34E2246BE15F00A55617 /* Assets.xcassets in Resources */,
 			);
@@ -267,9 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC45155247237E10053AD88 /* DataPoint.swift in Sources */,
 				2F3A34DC246BE15E00A55617 /* AppDelegate.swift in Sources */,
+				2FC45151247230900053AD88 /* Variable.swift in Sources */,
+				2FCE8200247A32AE00E0AC43 /* VariableData.swift in Sources */,
+				2F3A350E246CF31200A55617 /* VariableRow.swift in Sources */,
 				2F3A34DE246BE15E00A55617 /* SceneDelegate.swift in Sources */,
+				2FCE8202247A386100E0AC43 /* Unit.swift in Sources */,
+				2F3A350C246CEFAC00A55617 /* VariablesView.swift in Sources */,
 				2F3A34E0246BE15E00A55617 /* ContentView.swift in Sources */,
+				2F3A3510246CF47D00A55617 /* AddVariable.swift in Sources */,
+				2FC45153247236770053AD88 /* Equation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,17 +335,6 @@
 			targetProxy = 2F3A34FA246BE15F00A55617 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2F3A34E6246BE15F00A55617 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F3A34E7246BE15F00A55617 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2F3A3500246BE15F00A55617 /* Debug */ = {
@@ -436,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Physio/Preview Content\"";
+				DEVELOPMENT_TEAM = HGA625QAM9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Physio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +477,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Physio/Preview Content\"";
+				DEVELOPMENT_TEAM = HGA625QAM9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Physio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
