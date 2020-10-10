@@ -8,7 +8,27 @@
 
 import Foundation
 
-struct DataPoint
+class DataPoint
 {
+    var value: Float
+    var unit: Unit?
     
+    init(value: Float)
+    {
+        self.value = value
+    }
+    
+    func setUnit(unit: Unit)
+    {
+        self.unit = unit
+    }
+    
+    func convertTo(wantedUnit: Unit)
+    {
+        if (unit != nil)
+        {
+            value = convert(value: value, currentUnit: unit!, endUnit: wantedUnit)!
+            unit = wantedUnit
+        }
+    }
 }

@@ -9,13 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    var test: String
+    
     var body: some View {
-        Text("Hello, World! Let us see if this works!")
+        Text(test)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(test: getUnitOptions(name: Equation.velocity)[0].getString())
     }
 }

@@ -17,11 +17,11 @@
 		2F3A350C246CEFAC00A55617 /* VariablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350B246CEFAC00A55617 /* VariablesView.swift */; };
 		2F3A350E246CF31200A55617 /* VariableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350D246CF31200A55617 /* VariableRow.swift */; };
 		2F3A3510246CF47D00A55617 /* AddVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3A350F246CF47D00A55617 /* AddVariable.swift */; };
+		2F48489C24901CAD003BD55B /* ComplexUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F48489B24901CAD003BD55B /* ComplexUnit.swift */; };
+		2F94522924884D14003D036B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F94522824884D14003D036B /* Database.swift */; };
 		2F975084246E717600500017 /* VariableData.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F975083246E717600500017 /* VariableData.json */; };
 		2FC45151247230900053AD88 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45150247230900053AD88 /* Variable.swift */; };
-		2FC45153247236770053AD88 /* Equation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45152247236770053AD88 /* Equation.swift */; };
 		2FC45155247237E10053AD88 /* DataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC45154247237E10053AD88 /* DataPoint.swift */; };
-		2FCE8200247A32AE00E0AC43 /* VariableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE81FF247A32AE00E0AC43 /* VariableData.swift */; };
 		2FCE8202247A386100E0AC43 /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE8201247A386100E0AC43 /* Unit.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,11 +59,11 @@
 		2F3A350B246CEFAC00A55617 /* VariablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariablesView.swift; sourceTree = "<group>"; };
 		2F3A350D246CF31200A55617 /* VariableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableRow.swift; sourceTree = "<group>"; };
 		2F3A350F246CF47D00A55617 /* AddVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVariable.swift; sourceTree = "<group>"; };
+		2F48489B24901CAD003BD55B /* ComplexUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexUnit.swift; sourceTree = "<group>"; };
+		2F94522824884D14003D036B /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		2F975083246E717600500017 /* VariableData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = VariableData.json; sourceTree = "<group>"; };
 		2FC45150247230900053AD88 /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
-		2FC45152247236770053AD88 /* Equation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equation.swift; sourceTree = "<group>"; };
 		2FC45154247237E10053AD88 /* DataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPoint.swift; sourceTree = "<group>"; };
-		2FCE81FF247A32AE00E0AC43 /* VariableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableData.swift; sourceTree = "<group>"; };
 		2FCE8201247A386100E0AC43 /* Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,18 +118,18 @@
 				2F3A34DB246BE15E00A55617 /* AppDelegate.swift */,
 				2F3A34DD246BE15E00A55617 /* SceneDelegate.swift */,
 				2F3A34DF246BE15E00A55617 /* ContentView.swift */,
-				2F3A34E1246BE15F00A55617 /* Assets.xcassets */,
-				2F3A34E9246BE15F00A55617 /* Info.plist */,
-				2F3A34E3246BE15F00A55617 /* Preview Content */,
 				2F3A350B246CEFAC00A55617 /* VariablesView.swift */,
 				2F3A350D246CF31200A55617 /* VariableRow.swift */,
 				2F3A350F246CF47D00A55617 /* AddVariable.swift */,
 				2F975083246E717600500017 /* VariableData.json */,
 				2FC45150247230900053AD88 /* Variable.swift */,
-				2FC45152247236770053AD88 /* Equation.swift */,
 				2FC45154247237E10053AD88 /* DataPoint.swift */,
-				2FCE81FF247A32AE00E0AC43 /* VariableData.swift */,
 				2FCE8201247A386100E0AC43 /* Unit.swift */,
+				2F48489B24901CAD003BD55B /* ComplexUnit.swift */,
+				2F94522824884D14003D036B /* Database.swift */,
+				2F3A34E9246BE15F00A55617 /* Info.plist */,
+				2F3A34E1246BE15F00A55617 /* Assets.xcassets */,
+				2F3A34E3246BE15F00A55617 /* Preview Content */,
 			);
 			path = Physio;
 			sourceTree = "<group>";
@@ -294,14 +294,14 @@
 				2FC45155247237E10053AD88 /* DataPoint.swift in Sources */,
 				2F3A34DC246BE15E00A55617 /* AppDelegate.swift in Sources */,
 				2FC45151247230900053AD88 /* Variable.swift in Sources */,
-				2FCE8200247A32AE00E0AC43 /* VariableData.swift in Sources */,
 				2F3A350E246CF31200A55617 /* VariableRow.swift in Sources */,
 				2F3A34DE246BE15E00A55617 /* SceneDelegate.swift in Sources */,
+				2F94522924884D14003D036B /* Database.swift in Sources */,
 				2FCE8202247A386100E0AC43 /* Unit.swift in Sources */,
 				2F3A350C246CEFAC00A55617 /* VariablesView.swift in Sources */,
+				2F48489C24901CAD003BD55B /* ComplexUnit.swift in Sources */,
 				2F3A34E0246BE15E00A55617 /* ContentView.swift in Sources */,
 				2F3A3510246CF47D00A55617 /* AddVariable.swift in Sources */,
-				2FC45153247236770053AD88 /* Equation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

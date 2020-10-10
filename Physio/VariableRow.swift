@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct VariableRow: View {
-    var variable: Variable
     
     var body: some View {
         HStack {
